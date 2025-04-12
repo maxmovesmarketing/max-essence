@@ -1,0 +1,52 @@
+{% comment %}
+  Secondary Announcement Bar
+  A custom announcement bar that appears below the header
+{% endcomment %}
+
+<div
+  class="utility-bar color-{{ section.settings.color_scheme }} gradient"
+  role="region"
+  aria-label="{{ 'sections.header.announcement' | t }}"
+>
+  <div class="page-width utility-bar__grid">
+    <div
+      class="announcement-bar"
+      role="region"
+      aria-label="{{ 'sections.header.announcement' | t }}"
+    >
+      <p class="announcement-bar__message h5">
+        <span>{{ section.settings.text | escape }}</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Secondary Announcement",
+  "class": "secondary-announcement-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "default": "Voor 15:00 besteld is vandaag binnen!",
+      "label": "Announcement text"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-535e5e8d-17c5-49ac-86fc-2dbd897bf70a"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Secondary Announcement",
+      "settings": {
+        "text": "Voor 15:00 besteld is vandaag binnen!",
+        "color_scheme": "scheme-535e5e8d-17c5-49ac-86fc-2dbd897bf70a"
+      }
+    }
+  ]
+}
+{% endschema %}

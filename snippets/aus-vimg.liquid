@@ -1,0 +1,12 @@
+{% assign img_url = 'none' %}
+{% for variant in product.variants %}
+  {% assign value_current = value | downcase %}
+  {% for v_option in variant.options %}
+    {% assign v_option_d = v_option | downcase %}
+    {% if v_option_d == value_current %}
+      {% assign img_url = variant.image | img_url: '150x150' %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+<img src="{{ img_url | rstrip }}" class="aus-vimg">

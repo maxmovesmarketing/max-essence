@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+
+# Shopify CLI and theme files
+.shopify/
+
+# Log files
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+
+# VSCode settings
+.vscode/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore font cache
+*.woff
+*.woff2
+
+# Ignore images that are not part of the theme
+*.psd
+*.ai
+*.sketch

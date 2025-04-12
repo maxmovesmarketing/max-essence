@@ -1,0 +1,232 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "0564837d-ab7a-4bd1-8205-de1c8334fdfe": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Dit product ga je leuk vinden",
+            "icon_2": "return",
+            "heading_2": "Toch niet leuk? Geld terug!",
+            "icon_3": "truck",
+            "heading_3": "Gratis verzending op iedere bestelling"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "0564837d-ab7a-4bd1-8205-de1c8334fdfe"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "ec7404e6-8ea2-4f4d-952b-0d111f7c5b29": {
+      "type": "aus-tp-slider",
+      "blocks": {
+        "245280cc-1993-40f9-b100-688fea6a92b8": {
+          "type": "richtext",
+          "settings": {
+            "rating": "5",
+            "verified": "Verified",
+            "review_title": "Verwachtingen overtroffen",
+            "review_content": "<p>De Xander Bomber overtrof mijn verwachtingen! Het materiaal voelt duurzaam aan en de voering houdt me lekker warm. De jas is echt stijlvol en comfortabel tegelijkertijd.</p>",
+            "review_time": "43 minuten geleden",
+            "customer_name": "Milan"
+          }
+        },
+        "59933cf9-187f-465c-a01a-939eec11524b": {
+          "type": "richtext",
+          "settings": {
+            "rating": "5",
+            "verified": "Verified",
+            "review_title": "Perfect voor ieder seizoen",
+            "review_content": "<p>Ik heb deze jas in 2022 gedragen tijdens zowel de herfst als de winter, en hij heeft me altijd warm gehouden. Tis een veelzijdige jas die geschikt is voor verschillende weersomstandigheden.</p>",
+            "review_time": "2 uur geleden",
+            "customer_name": "Coen"
+          }
+        },
+        "0adfc5c8-00c6-4d77-b285-0455b1383d2d": {
+          "type": "richtext",
+          "settings": {
+            "rating": "5",
+            "verified": "Verified",
+            "review_title": "Fijne pasvorm hoor!",
+            "review_content": "<p>De pasvorm van deze jas is perfect! Ik heb me gewoon aan de maattabel gehouden en de jas past als gegoten. Het is echt handig om de juiste maat te kiezen.</p>",
+            "review_time": "2 uur geleden",
+            "customer_name": "Paul"
+          }
+        },
+        "6a8fa66e-2a89-4cc1-a696-92e737bd521b": {
+          "type": "richtext",
+          "settings": {
+            "rating": "5",
+            "verified": "Verified",
+            "review_title": "Top aankoop!!!",
+            "review_content": "<p>Gelukkig hoefde ik geen gebruik te maken van het retourbeleid, maar het feit dat het beschikbaar is, gaf me gemoedsrust bij mijn aankoop.</p>",
+            "review_time": "3 uur geleden",
+            "customer_name": "Johan"
+          }
+        }
+      },
+      "block_order": [
+        "245280cc-1993-40f9-b100-688fea6a92b8",
+        "59933cf9-187f-465c-a01a-939eec11524b",
+        "0adfc5c8-00c6-4d77-b285-0455b1383d2d",
+        "6a8fa66e-2a89-4cc1-a696-92e737bd521b"
+      ],
+      "settings": {
+        "heading": "Uitstekend!",
+        "content": "<p><strong>Xander™: 4,7/5</strong> Gebaseerd op 827+ reviews </p>"
+      }
+    },
+    "e48c4eab-f9ca-4959-bd3c-45ba81d8929e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is de Xander™ | Bomber Jas geschikt voor koud weer?",
+            "icon": "snowflake",
+            "row_content": "<p><em>Ja, de Xander™ | Bomber Jas is ontworpen om je warm te houden tijdens koud weer dankzij de isolatie en windbescherming.</em></p>",
+            "page": ""
+          }
+        },
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe kies ik de juiste maat?",
+            "icon": "ruler",
+            "row_content": "<p><em>Raadpleeg onze maattabel op de productpagina om de juiste maat te vinden. Meet je lichaam volgens de instructies om de beste pasvorm te garanderen.</em></p>",
+            "page": ""
+          }
+        },
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik retourneren als het niet past of niet aan mijn verwachtingen voldoet?",
+            "icon": "return",
+            "row_content": "<p>Ja, we bieden een retourbeleid aan. Raadpleeg onze retourinstructies voor meer informatie over het retourproces.</p>",
+            "page": ""
+          }
+        },
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welke materialen worden er gebruikt?",
+            "icon": "check_mark",
+            "row_content": "<p>De Xander™ | Bomber Jas is gemaakt van hoogwaardige materialen en bestaat uit een duurzame buitenlaag en een comfortabele voering. Het specifieke materiaal kan variëren afhankelijk van de kleur en versie van de jas.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-1",
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-2",
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-3",
+        "template--18172882911497__e48c4eab-f9ca-4959-bd3c-45ba81d8929e-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "Xander™ | Bomber Jas",
+        "heading": "Veelgestelde vragen",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "ec7404e6-8ea2-4f4d-952b-0d111f7c5b29",
+    "e48c4eab-f9ca-4959-bd3c-45ba81d8929e"
+  ]
+}

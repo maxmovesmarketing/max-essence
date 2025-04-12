@@ -1,0 +1,249 @@
+<style>
+  @keyframes inventory-pulse {
+      0% {
+          opacity: 0.5;
+      }
+
+      100% {
+          transform: scale(2.5);
+          opacity: 0;
+      }
+  }
+
+  span.green_icon {
+      display: inline-block;
+      position: relative;
+      height: 25px;
+      width: 25px;
+  }
+
+  .icon--inventory:before {
+      animation: inventory-pulse 2s linear infinite;
+  }
+
+  .icon--inventory:after,
+  .icon--inventory:before {
+      width: 9px;
+      height: 9px;
+      background: #F5AF29;
+      border-radius: 9px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      content: "";
+      margin: 8px;
+  }
+
+  .aus_stock {
+      display: flex;
+      align-items: center;
+  }
+
+ .aus-price s.price-item.price-item--regular {
+    font-size: 19px !important;
+    font-weight: bold !important;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.aus-price span.price-item.price-item--sale.price-item--last {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Century Gothic', sans-serif;
+}
+  }
+
+  button[name="add"] {
+      box-shadow: 2px 3px 5px #0000009c;
+  }
+
+  button[name="add"] span {
+      font-weight: 700;
+  }
+
+  .aus-price span.badge.price__badge-sale.color-accent-1 {
+      margin-top: 5px;
+  }
+
+  .product-single__price--compare-at.text-muted.text-strike .money {
+      font-size: 28px;
+      display: inline-grid;
+  }
+
+  .product-single__price.on-sale.text-sale .money {
+      font-size: 38px;
+  }
+
+  .aus_stock {
+      margin-top: 0 !important;
+      color: #54c63a;
+      letter-spacing: -.5px;
+  }
+
+
+  .c.promoCheckmarks ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  img.icon-img-one {
+      width: 20px;
+      display: inline-block;
+      margin-right: 5px;
+  }
+
+  .c.promoCheckmarks li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+  }
+
+  img.icon-img-two {
+      width: 30px;
+      margin-left: -5px;
+  }
+
+  img.icon-img-three {
+      width: 25px;
+      margin-right: 5px;
+  }
+
+  .aus_p_container {
+      margin-top: 0 !important;
+      margin-bottom: 30px;
+  }
+
+  span.green_icon.icon--inventory+span {
+      margin-left: 5px;
+      display: inline-block;
+  }
+
+  img.icon-img-one {
+      margin-right: 8px;
+  }
+
+  span.icon-and-text img {
+      width: 20px;
+      margin-right: 8px;
+  }
+
+  span.icon-and-text {
+      display: flex;
+      align-items: center;
+  }
+
+  .aus_stock {
+      margin-left: -5px;
+  }
+  svg.icon.icon--small.icon--type-price_tag {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p.priceme_sale {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.off_sale.aus-sale-tag {
+    margin: 0;
+    top: -10px;
+    position: relative;
+}
+
+.aus-price span.price-item.price-item--sale.price-item--last {
+    color: #36C432;
+}
+
+img.aus-vimg {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+label.vimg-label {
+    padding: 2px !important;
+    border-radius: 0 !IMPORTANT;
+}
+
+.main-gurentee-text {
+    font-size: inherit !important;
+}
+
+.aus-payment-icons.product-block.product-block--payment-icon {
+    max-width: 44rem;
+}
+
+.aus-payment-icons.product-block.product-block--payment-icon img {
+    width: 100%;
+    padding: 4px 15px;
+}
+
+.aus-pilot span {
+    font-family: 'Archivo';
+    text-decoration: underline;
+}
+p.priceme_sale strong {
+    font-weight: bold;
+    font-family: 'archivo';
+    display: inline-block;
+    margin-left: 5px;
+}
+.off_sale.aus-sale-tag {
+    display: flex;
+    align-items: center;
+}
+
+
+p.priceme_sale {
+    width: calc(100% - 20px);
+    margin-left: 5px;
+}
+@media(max-width:768px){
+  p.priceme_sale {
+    margin-left:10px;
+  }
+}
+</style>
+<div class="aus_p_container">
+  <div class="aus_bullets">
+    <div class="c promoCheckmarks">
+      <ul>
+        <li>
+          <div class="aus_stock">
+            <span class="green_icon icon--inventory"></span
+            ><span style="color:#F5AF29">Beperkte voorraad - OP = OP</span>
+          </div>
+        </li>
+        <li class="sales-point">
+          <span class="icon-and-text ">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0809/0071/8926/files/AMS_BULLET_1.png?v=1706639838"
+              role="presentation"
+              height="auto"
+              width="auto"
+              loading="lazy"
+            >
+            <span>30 dagen retourneren</span>
+          </span>
+        </li>
+        <li class="sales-point">
+          <span class="icon-and-text ">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0809/0071/8926/files/AMS_BULLET_2.png?v=1706639960"
+              role="presentation"
+              height="auto"
+              width="auto"
+              loading="lazy"
+            >
+            <span>Amsterdams merk sinds 2014</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
