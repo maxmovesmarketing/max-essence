@@ -96,7 +96,6 @@
                   </h2>
                 </a>
               </div>
-            {% render 'aus-tp-stars' %}
             {%- when 'price' -%}
               <div class="no-js-hidden aus-price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
@@ -106,6 +105,7 @@
                   price_class: 'price--large'
                 -%}
               </div>
+              {% render 'klarna-badge' %}
            
             {% render 'aus-bullets' %}
               {%- if product.quantity_price_breaks_configured? -%}
@@ -833,6 +833,12 @@
           ],
           "default": "button",
           "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_quantity_selector",
+          "default": false,
+          "label": "Toon quantity selector"
         }
       ]
     },

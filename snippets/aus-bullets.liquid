@@ -211,39 +211,6 @@ p.priceme_sale {
 </style>
 <div class="aus_p_container">
   <div class="aus_bullets">
-    <div class="c promoCheckmarks">
-      <ul>
-        <li>
-          <div class="aus_stock">
-            <span class="green_icon icon--inventory"></span
-            ><span style="color:#F5AF29">Beperkte voorraad - OP = OP</span>
-          </div>
-        </li>
-        <li class="sales-point">
-          <span class="icon-and-text ">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0809/0071/8926/files/AMS_BULLET_1.png?v=1706639838"
-              role="presentation"
-              height="auto"
-              width="auto"
-              loading="lazy"
-            >
-            <span>30 dagen retourneren</span>
-          </span>
-        </li>
-        <li class="sales-point">
-          <span class="icon-and-text ">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0809/0071/8926/files/AMS_BULLET_2.png?v=1706639960"
-              role="presentation"
-              height="auto"
-              width="auto"
-              loading="lazy"
-            >
-            <span>Amsterdams merk sinds 2014</span>
-          </span>
-        </li>
-      </ul>
-    </div>
+    {% render 'product-promo' %}
   </div>
 </div>

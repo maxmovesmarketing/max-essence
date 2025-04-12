@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'VarelaRoundCustom';
+  src: url('./varelaround-w8gdh283tvk__lua32tysjifp8up.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -57,6 +65,14 @@
   --shadow-blur-radius: var(--text-boxes-shadow-blur-radius);
   --shadow-opacity: var(--text-boxes-shadow-opacity);
   --shadow-visible: var(--text-boxes-shadow-visible);
+}
+
+/* Apply Varela Round font to titles */
+h1, h2, h3, h4, h5, h6,
+.banner__heading,
+.section-title,
+.title {
+  font-family: 'VarelaRoundCustom', Arial, Helvetica, sans-serif !important;
 }
 
 .contains-media,
@@ -2938,6 +2954,13 @@ details-disclosure > details {
 .price__badge-sale {
   background-color: #7A8340 !important;
   color: #ffffff !important;
+  border-color: #7A8340 !important;
+}
+
+/* Style "Uitverkocht" badge like sale badge, with custom text color */
+.card__badge.top.left .badge.badge--bottom-left.color-accent-1 {
+  background-color: #7A8340 !important;
+  color: #EFC7AC !important;
   border-color: #7A8340 !important;
 }
 

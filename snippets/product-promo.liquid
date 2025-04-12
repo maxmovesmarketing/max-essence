@@ -1,0 +1,87 @@
+<div class="product-promo-block">
+  <div class="promo-row">
+    <img src="{{ 'back_1.svg' | asset_url }}" alt="Retourneren" class="promo-icon" />
+    <span class="promo-text">14 dagen gemakkelijk retourneren</span>
+    <span class="promo-info" title="Meer info">
+      <svg width="12" height="12" viewBox="0 0 12 12" style="vertical-align:middle;" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="6" cy="6" r="6" fill="#333"/>
+        <text x="6" y="8" text-anchor="middle" font-size="7" fill="#fff" font-family="Arial" font-weight="bold">i</text>
+      </svg>
+    </span>
+  </div>
+  <div class="promo-row">
+    <span class="promo-green-dot"></span>
+    <span class="promo-green-text">Op voorraad en klaar om te verzenden</span>
+  </div>
+</div>
+<style>
+.product-promo-block {
+  margin: 18px 0 18px 0;
+  font-family: 'VarelaRoundCustom', Arial, Helvetica, sans-serif;
+}
+.promo-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  gap: 8px;
+}
+.promo-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.promo-text {
+  font-size: 12px;
+  color: #191929;
+  font-weight: 400;
+}
+.promo-info {
+  margin-left: 6px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+.promo-green-dot {
+  width: 12px;
+  height: 12px;
+  background: #38d430;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 6px;
+  animation: promo-dot-pulse 1.2s infinite;
+}
+
+@keyframes promo-dot-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(56, 212, 48, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 5px rgba(56, 212, 48, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(56, 212, 48, 0);
+  }
+}
+.promo-green-text {
+  color: #38d430;
+  font-size: 12px;
+  font-weight: 600;
+}
+@media (max-width: 749px) {
+  .promo-text, .promo-green-text {
+    font-size: 12px;
+  }
+  .promo-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .promo-green-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+</style>
